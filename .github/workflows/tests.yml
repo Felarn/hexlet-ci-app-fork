@@ -2,7 +2,7 @@ name: test-tests
 on: push
 jobs: 
   my-job:
-    runs-on: ububtu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: copy-files
         uses: actions/checkout@v3
